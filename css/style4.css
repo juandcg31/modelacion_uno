@@ -1,0 +1,136 @@
+body{
+  background: #eeeeee;
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+}
+.top-bar {
+
+    background: -webkit-linear-gradient(top,#d3002d,#a71937);
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 32.34px;
+}
+
+.top-bar .contact-info {
+    margin-right: 20px;
+}
+
+.top-bar ul {
+    margin-bottom: 0;
+}
+
+.top-bar .contact-info a {
+    font-size: 0.8rem;
+}
+
+.top-bar ul.social-custom {
+    margin-left: 20px;
+}
+.top-bar ul {
+    margin-bottom: 0;
+}
+
+.top-bar a.login-btn i, .top-bar a.signup-btn i {
+    margin-right: 10px;
+}
+
+.top-bar ul.social-custom a:hover {
+    background: #4fbfa8;
+    color: #fff;
+}
+.top-bar ul.social-custom a {
+    text-decoration: none !important;
+    font-size: 0.7rem;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    color: #999;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0;
+}
+a:focus, a:hover {
+    color: #348e7b;
+    text-decoration: underline;
+}
+.top-bar a.login-btn, .top-bar a.signup-btn {
+    color: #eee;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none !important;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+span.logo-lg{
+  font-size: 1.6em;
+  margin-left: 15px;
+
+}
+
+.login{
+  border-radius: 10px;
+  border: 2px solid #d7d7d7;
+  padding: 10px;
+  -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s ;
+  box-shadow: #d7d7d7 2px 2px 5px;
+}
+
+.login:hover{
+  -webkit-transform:scale(1.2);
+}
+
+
+.principal{
+ border: 5px solid #6b6b6b;
+ border-radius: 5px;
+ margin: 50px;
+ margin-bottom: 200px;
+}
+
+.titulo{
+  border-bottom: 3px solid #999997;
+}
+.titulo h1{
+  padding: 20px;
+  text-align: center;
+}
+#primera-parte{
+  padding: 20px
+}
+
+.input {
+  color: #656565;
+}
+
+.input p{
+  padding: 10px 0px 10px 0px;
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.tabla{
+  margin:30px;
+  display: flex;
+  justify-content: center;
+}
+table{
+
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+table td{
+   border: 1px solid black;
+}
+
+footer p{
+  text-align: center;
+}
+
+footer p span{
+  color: #069f95;
+}
